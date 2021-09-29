@@ -11,7 +11,7 @@ public class lab19
     int lineCount = 0;
     try
     {
-       reader = new BufferedReader(new FileReader("kc.txt"));
+       reader = new BufferedReader(new FileReader("mani.txt"));
        String currentLine = reader.readLine();
        while(currentLine != null)
        {
